@@ -26,10 +26,10 @@ int maxSum(vector<int>& nums, int k){
         r++;
         if(freq.size()==k) maxSum=max(maxSum,sum);
     }
-    cout<< maxSum;
+    return maxSum;
 }
 int main(){
     vector<int>arr={1,5,4,2,9,9,9};
     int k=3;
-    return maxSum(arr,k);
+    cout<< maxSum(arr,k);
 }
