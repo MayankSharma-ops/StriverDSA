@@ -12,7 +12,7 @@ string consecutiveString(string str){
             }
             hash[str[j]]=1;
             s+=str[j];
-            cout<<s<<endl;
+            cout<<s<<endl; 
         }
     }
 };
